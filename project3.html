@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lecture 5</title>
+    <style>
+        .box{
+            background-color:rgb(12, 175, 204);
+            margin:010px;
+            padding:50px;
+            border:40px solid rgba(222, 176, 135, 0.954);
+            border-radius:4cm;
+        }
+        .form{
+            background-color:rgb(12, 175, 204);
+            margin:010px;
+            padding:50px;
+            border:40px solid rgba(222, 176, 135, 0.954);
+        }
+    </style>
+</head>
+<body>
+    <div class="box" align="center">
+    <h1 align="center"><mark>Welcome to CSS</mark></h1>
+    <p align="center">Let's Learn internal CSS</p>
+    </div>
+    <div class="form" align="center">
+        <lengend><b>Registraition form</b></lengend>
+        <fieldset>
+    <form action="form.pnp">
+        <h2>INFORMATION</h2>
+        <input type="text" placeholder="Name"><br>
+        <input type="text" placeholder="Roll no."><br>
+        <input type="password" placeholder="password"><br>
+        <h3>select class</h3>
+        <lebel for="101">
+        <input type="radio" value="class XII" Name="class" id="101">class XII
+        </lebel>
+        <lebel for="102">
+        <br><input type="radio" value="class XI" name="class" id="102">class XI
+        </lebel>
+    <h3>select subject</h3>
+        <label for="math">
+            <input type="checkbox" value="math" name="sub" id="102">maths<br>
+        </label>
+        <label for="phy">
+            <input type="checkbox" value="phy" name="sub" id="103">physics<br>
+        </label>
+        <label for="chemistry">
+            <input type="checkbox" value="chem" name="sub" id="104">chemistry<br>
+        </label>
+        <label for="computer">
+            <input type="checkbox" value="computer" name="sub" id="105">computer<br>
+        </label><br>
+    select your city
+        <select name="city">
+            <option value="Delhi">Delhi</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Ranchi">Ranchi</option>
+        </select><br>
+        <textarea name="feedback" id="101" placeholder="give your feedback" rows="10" ></textarea>
+        <br><input type="submit" value="submit">
+
+    </form>
+    </fieldset>
+    </div>
+</body>
+</html>
